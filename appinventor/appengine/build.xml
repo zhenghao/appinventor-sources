@@ -35,7 +35,7 @@
 
   <condition property="client.flags"
              value="-optimize 9 -localWorkers 8"
-             else="-style pretty">
+             else="-optimize 9">
     <equals arg1="${release}" arg2="true" />
   </condition>
 
